@@ -5,6 +5,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="manifest" href="%PUBLIC_URL%/manifest.json"/>
 
 		<style>
 			body {
@@ -21,6 +22,12 @@
 				font-weight: bold ;
 			}
 		</style>
+
+		<script>
+			if (typeof navigator.serviceWorker !== 'undefined') {
+				navigator.serviceWorker.register('pwabuilder-sw.js')
+			}
+		</script>
 	</head>
 
 
@@ -65,7 +72,7 @@
 			<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
 				<div class="content">
 					<h2>Monkey D. Luffy</h2>
-					<p>Monkey D. Luffy, também conhecido como "Luffy do Chapéu de Palha" e comumente como "Chapéu de Palha",
+					<p><b>Monkey D. Luffy, também conhecido como "Luffy do Chapéu de Palha" e comumente como "Chapéu de Palha",
 						é o fundador e capitão dos cada vez mais infames
 						e poderosos Piratas do Chapéu de Palha, bem como
 						o mais poderoso de seus melhores lutadores. 
@@ -75,7 +82,7 @@
 						um sonho desconhecido dele que ele contou apenas
 						para Shanks, seus irmãos e tripulação.
 						Ele acredita que ser o Rei dos Piratas significa ter
-						a maior liberdade do mundo</p>
+						a maior liberdade do mundo</b></p>
 				</div>
 				<div class="image">
 					<img src="images/luffy.jpeg" alt="" />
@@ -86,7 +93,7 @@
 			<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
 				<div class="content">
 					<h2>Roronoa Zoro</h2>
-					<p>Roronoa Zoro, também conhecido como "Caçador de Piratas" Zoro, 
+					<p><b>Roronoa Zoro, também conhecido como "Caçador de Piratas" Zoro, 
 						é o combatente dos Piratas do Chapéu de Palha e um ex-caçador de recompensas.
 						Ele foi o primeiro membro a juntar-se à tripulação. 
 						Sua fama como mestre espadachim e sua grande força, 
@@ -97,7 +104,7 @@
 						Ele é um dos quatro melhores lutadores da tripulação, ao
 						 lado de Luffy, Sanji e Jinbe, e seu sonho é se tornar
 						 o maior espadachim do mundo. Zoro também é considerado
-						 como um dos doze piratas que são referidos como "A Pior Geração"</p>
+						 como um dos doze piratas que são referidos como "A Pior Geração"</b></p>
 				</div>
 				<div class="image">
 					<img src="images/zoro.jpeg" alt="" />
@@ -108,7 +115,7 @@
 				<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
 					<div class="content">
 						<h2>Nami</h2>
-						<p>Nami, a "Gata Ladra" é a navegadora dos Piratas do Chapéu 
+						<p><b>Nami, a "Gata Ladra" é a navegadora dos Piratas do Chapéu 
 							de Palha e uma dos Oficiais Seniores da Grande Frota do 
 							Chapéu de Palha. Ela é o terceiro membro da tripulação 
 							e a segunda a entrar, fazendo isso durante o Arco Orange 
@@ -119,7 +126,7 @@
 							poder roubá-los e comprar de volta a sua aldeia de Arlong.
 							 No entanto, ela se juntou legitimamente aos Chapéus 
 							de Palha depois que eles se rebelaram e derrotaram Arlong.
-							 Seu sonho é fazer um mapa de todo o mundo.</p>
+							 Seu sonho é fazer um mapa de todo o mundo.</b></p>
 						
 					</div>
 					<div class="image">
@@ -132,7 +139,7 @@
 				<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
 					<div class="content">
 						<h2>Usopp</h2>
-						<p>"God" Usopp é o Atirador dos Piratas do Chapéu de Palha. 
+						<p><b>"God" Usopp é o Atirador dos Piratas do Chapéu de Palha. 
 							Ele é o quarto membro da tripulação e o terceiro a entrar,
 							 fazendo isso no final do Arco Vila Syrup. Embora ele tenha
 							 deixado a tripulação durante o Arco Water 7, ele se 
@@ -144,7 +151,7 @@
 							Piratas do Gato Preto, ele foi convidado a se juntar 
 							à tripulação. Apesar de sua covardia normal, Usopp 
 							sonha em se tornar um corajoso guerreiro do mar como 
-							seu pai, e vive todos os dias em busca de viver à altura deste sonho.</p>
+							seu pai, e vive todos os dias em busca de viver à altura deste sonho.</b></p>
 						
 					</div>
 					<div class="image">
@@ -157,7 +164,7 @@
 				<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
 					<div class="content">
 						<h2>Sanji</h2>
-						<p>"Perna Preta" Sanji, nascido como Vinsmoke Sanji, e também 
+						<p> <b>"Perna Preta" Sanji, nascido como Vinsmoke Sanji, e também 
 							é o cozinheiro dos Piratas do Chapéu de Palha, assim como 
 							um antigo chefe de cozinha do Baratie. Ele também é o 
 							terceiro filho e a quarta criança da Família Vinsmoke,
@@ -173,7 +180,7 @@
 							 ao lado de Luffy, Zoro e Jinbe. Seu sonho é encontrar
 							 o paraíso dos chefes, All Blue, sendo esse o lugar 
 							onde o East Blue, o West Blue, o North Blue e o South 
-							Blue se encontram, juntamente com sua vida selvagem.</p>
+							Blue se encontram, juntamente com sua vida selvagem.</b></p>
 						
 					</div>
 					<div class="image">
@@ -191,7 +198,7 @@
 									</a>
 									<div class="caption">
 										<h3>Jolly Roger</h3>
-										<p>Bandeira dos Chapéu de Palha.</p>
+										<p><b>Bandeira dos Chapéu de Palha.</b></p>
 										<ul class="actions fixed">
 											<li><span class="button small">ver</span></li>
 										</ul>
@@ -203,7 +210,7 @@
 									</a>
 									<div class="caption">
 										<h3>Simbolo do Zoro </h3>
-										<p>Jolly Roger que representa o Zoro no bando.</p>
+										<p><b>Jolly Roger que representa o Zoro no bando.</b></p>
 										<ul class="actions fixed">
 											<li><span class="button small">ver</span></li>
 										</ul>
@@ -215,7 +222,7 @@
 									</a>
 									<div class="caption">
 										<h3>Simbolo da Nami </h3>
-										<p>Jolly Roger que representa a Nami no bando.</p>
+										<p><b>Jolly Roger que representa a Nami no bando.</b></p>
 										<ul class="actions fixed">
 											<li><span class="button small">ver</span></li>
 										</ul>
@@ -227,7 +234,7 @@
 									</a>
 									<div class="caption">
 										<h3>Simbolo do Usopp</h3>
-										<p>Jolly Roger que representa o Usopp no bando.</p>
+										<p><b>Jolly Roger que representa o Usopp no bando.</b></p>
 										<ul class="actions fixed">
 											<li><span class="button small">ver</span></li>
 										</ul>
@@ -239,7 +246,7 @@
 									</a>
 									<div class="caption">
 										<h3>Simbolo do Sanji</h3>
-										<p>Jolly Roger que representa o Sanji no bando</p>
+										<p><b>Jolly Roger que representa o Sanji no bando</b></p>
 										<ul class="actions fixed">
 											<li><span class="button small">ver</span></li>
 										</ul>
