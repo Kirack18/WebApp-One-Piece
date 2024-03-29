@@ -1,0 +1,15 @@
+{
+  "background_color": "#faeb3f",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "History Piece",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "H-P",
+  "start_url": "/https://kirack18.github.io/WebApp-One-Piece/",
+  "theme_color": "#2b98cb",
+  "lang": "pt",
+  "categories": [
+    "entertainment"
+  ]
+}
