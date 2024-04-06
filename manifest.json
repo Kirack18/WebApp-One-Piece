@@ -1,19 +1,18 @@
 {
+  "name": "History Piece",
+  "short_name": "H-P",
   "background_color": "#faeb3f",
+  "theme_color": "#2b98cb",
   "dir": "ltr",
   "display": "standalone",
   "orientation": "any",
   "scope": "/",
   "start_url": "/",
-  "theme_color": "#2b98cb",
+  
   "lang": "pt",
   "categories": ["entertainment"],
-  "splash_screen": {
-    "name": "History Piece",
-    "short_name": "H-P",
-    "description": "Breve Historia da famosa serie dos piratas do chapeu de palha"
-},
-
+    
+    
   "icons": [
     
     {
